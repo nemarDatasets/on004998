@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004998-blue)](https://doi.org/10.82901/nemar.on004998)
+
 This dataset contains data from externalized DBS patients undergoing simultaneous MEG - STN LFP recordings with (MedOn) and without (MedOn) dopaminergic medication. It has two movement conditions: 1) 5 min of rest followed by static forearm extension (hold) and 2) 5 min of rest followed by self-paced fist-clenching (move). The movement parts contain pauses. Some patients were recorded in resting-state only (rest). The project aimed to understand the neurophysiology of basal ganglia-cortex loops and its modulation by movement and medication.
 
 Code for quickly start is available here:
