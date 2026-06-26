@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Exploring the electrophysiology of Parkinson's disease - magnetoencephalography combined with deep brain recordings from the subthalamic nucleus. ",
+  "description": "This dataset comprises simultaneous magnetoencephalography and subthalamic nucleus local field potential recordings from externalized deep brain stimulation patients with Parkinson's disease, acquired during rest, static motor tasks, and self-paced movement under both medicated and unmedicated states. The study investigates basal ganglia-cortex circuit electrophysiology and its modulation by motor behavior and dopaminergic medication.",
+  "methods_description": "Data were collected from externalized DBS patients undergoing simultaneous MEG-STN LFP recordings with and without dopaminergic medication. Two movement conditions were employed: (1) 5 minutes of rest followed by static forearm extension, and (2) 5 minutes of rest followed by self-paced fist-clenching. Some patients were recorded in resting-state only.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,32 @@
     "Alfons Schnitzler": {},
     "Jan Hirschmann": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004998.v1.2.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
+    {
+      "term": "deep brain stimulation"
+    },
+    {
+      "term": "local field potentials"
+    },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "basal ganglia"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "subthalamic nucleus"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1038/s41597-024-03768-1",
       "identifier_type": "DOI",
@@ -43,6 +65,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004998.v1.2.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -54,83 +81,20 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "173.7 GB (186 files)"
   ],
   "formats": [
     ".fif",
     ".json",
     ".mat",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises simultaneous magnetoencephalography and subthalamic nucleus local field potential recordings from externalized deep brain stimulation patients with Parkinson's disease, acquired during rest, static motor tasks, and self-paced movement under both medicated and unmedicated states. The study investigates basal ganglia-cortex circuit electrophysiology and its modulation by motor behavior and dopaminergic medication.",
-  "methods_description": "Data were collected from externalized DBS patients undergoing simultaneous MEG-STN LFP recordings with and without dopaminergic medication. Two movement conditions were employed: (1) 5 minutes of rest followed by static forearm extension (hold), and (2) 5 minutes of rest followed by self-paced fist-clenching (move), with pauses during movement phases. Some patients were recorded in resting-state only.",
-  "keywords": [
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "deep brain stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
-    },
-    {
-      "term": "local field potentials",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013814"
-    },
-    {
-      "term": "Parkinson's disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
-    },
-    {
-      "term": "basal ganglia",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001479"
-    },
-    {
-      "term": "motor control",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
-    },
-    {
-      "term": "dopaminergic medication",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000978"
-    },
-    {
-      "term": "subthalamic nucleus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
-    },
-    {
-      "term": "externalized DBS",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
-    },
-    {
-      "term": "motor tasks",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
-    },
-    {
-      "term": "electrophysiology",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013814"
-    },
-    {
-      "term": "cortical-subcortical circuits",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001479"
-    }
-  ],
-  "source_hash": "6c0680154add4758a54fac5a267f71f12a1a091f9c9e40a6ecc5108f275a6806"
+  "source_hash": "6aaa9e4a41cbc29ae880797a154e3a2cea4a08dc7bbc7d9e68adce4517ae0150"
 }
