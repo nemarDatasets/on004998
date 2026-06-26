@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004998",
-  "source": "openneuro",
-  "source_id": "ds004998",
+  "pipeline_stage": "enriched",
   "title": "Exploring the electrophysiology of Parkinson's disease - magnetoencephalography combined with deep brain recordings from the subthalamic nucleus. ",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Fayed Rassoulou": {},
     "Alexandra Steina": {},
@@ -13,26 +13,124 @@
     "Alfons Schnitzler": {},
     "Jan Hirschmann": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004998.v1.2.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/s41597-024-03768-1",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004998",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004998",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "meg"
-  ],
-  "datatypes": [
-    "meg"
   ],
   "funding_references": [
     {
       "funder_name": "The project was funded by ERA-NET Neuron for 3 years."
+    },
+    {
+      "funder_name": "ERA-NET Neuron"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fif",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises simultaneous magnetoencephalography and subthalamic nucleus local field potential recordings from externalized deep brain stimulation patients with Parkinson's disease, acquired during rest, static motor tasks, and self-paced movement under both medicated and unmedicated states. The study investigates basal ganglia-cortex circuit electrophysiology and its modulation by motor behavior and dopaminergic medication.",
+  "methods_description": "Data were collected from externalized DBS patients undergoing simultaneous MEG-STN LFP recordings with and without dopaminergic medication. Two movement conditions were employed: (1) 5 minutes of rest followed by static forearm extension (hold), and (2) 5 minutes of rest followed by self-paced fist-clenching (move), with pauses during movement phases. Some patients were recorded in resting-state only.",
+  "keywords": [
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "deep brain stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "local field potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013814"
+    },
+    {
+      "term": "Parkinson's disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "basal ganglia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001479"
+    },
+    {
+      "term": "motor control",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
+    },
+    {
+      "term": "dopaminergic medication",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000978"
+    },
+    {
+      "term": "subthalamic nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+    },
+    {
+      "term": "externalized DBS",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "motor tasks",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
+    },
+    {
+      "term": "electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013814"
+    },
+    {
+      "term": "cortical-subcortical circuits",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001479"
+    }
+  ],
+  "source_hash": "6c0680154add4758a54fac5a267f71f12a1a091f9c9e40a6ecc5108f275a6806"
 }
